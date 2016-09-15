@@ -22,8 +22,21 @@
 %% 
 % Problem 2. 
 
-% 1. Write code to generate an 8-bit image of size 1024 with a random value 
+% 1. Write code to generate an 8-bit image of size 1024x1024 with a random value 
 %of the intensity in each pixel. Call your image rand8bit.tif. 
 
-% 2. Write code which generates a 
+% 2. Write a function that takes an integer value as input and outputs a
+% 1024x1024 binary image mask containing 20 circles of that size in random
+% locations
+
+% 3. Write a function that takes the image from (1) and the binary mask
+% from (2) and returns a vector of  mean intensities of each circle.
+%
+% 4. Plot the mean and standard deviation of the values in your output
+% vector as a function of circle size. Explain your results. 
+
+%%
+
+% Problem 3. 
+% 
 %
